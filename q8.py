@@ -8,3 +8,12 @@ ends with one of these letters: p, t, n
 """
 
 # YOUR CODE HERE
+
+beginswith = ['c', 't', 'b']
+inthemiddle = ['a', 'o']
+attheend = ['p', 't', 'n']
+for start in beginswith:
+    for middle in inthemiddle:
+        for end in attheend:
+            word = start + middle + end
+            print(word)
